@@ -1,0 +1,45 @@
+Postman Operation
+
+1) 
+
+Mehtod : POST  
+URL: localhost:8082/Insert
+Body:
+	{
+	   "name":"ABCD"
+	}
+	
+2)
+
+To get all data 
+Mehtod : GET  
+URL: localhost:8082/Select
+Body:none
+
+To get data using id 
+
+Mehtod : GET  
+URL: localhost:8082/SelectById/2
+Body:none
+
+
+3)
+
+method : PUT
+URL:localhost:8082/Update
+Body : 
+	{
+		"id":1,
+		"name":"XYZ"
+	}
+	
+4) 
+
+Method: DELETE
+URL: localhost:8082/Delete/1
+Body:none
+
+	
+
+
+ 
